@@ -24,9 +24,9 @@ credits:Button(
             loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/main/ym"))()
         end)
 credits:Button(
-        "小gov2",
+        "小gov1",
         function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/main/ui"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/yujhvvghsjhgvshhs/refs/heads/main/V1"))()
         end)
     local creds = window:Tab("火箭发射模拟器", "16060333448")
     local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
@@ -57,15 +57,9 @@ credits:Button(
         end
     )
 credits:Button(
-        "杀戮光环",
-        function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Xingtaiduan/Script/main/Games/Ohio"))()
-        end
-    )
-credits:Button(
         "小go制作玩家控制喜欢俄亥俄的，可以搭配起来超级好用",
         function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E7%8E%A9%E5%AE%B6%E6%8E%A7%E5%88%B6"))()
+            loadstring(game:HttpGet("https://github.com/GTAFAW/neilonmacedo153/blob/main/%E7%8E%A9%E5%AE%B6%E6%8E%A7%E5%88%B6"))()
         end
     )
 
@@ -74,7 +68,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/ohio/ma
 end)
 
 credits:Button("小go俄亥俄州简易版",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E4%BF%84%E4%BA%A5%E4%BF%84%E5%B7%9E"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E4%BF%84%E4%BA%A5%E4%BF%84%E5%B7%9E"))()
 end)
 credits:Button("指令",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/longshulol/long/main/longshu/Ohio"))()
@@ -139,7 +133,7 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button(
         "鱿鱼游戏小go制作",
         function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E9%B1%BF%E9%B1%BC%E6%B8%B8%E6%88%8F"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E9%B1%BF%E9%B1%BC%E6%B8%B8%E6%88%8F"))()
     end
 )
 local creds = window:Tab("住宅大屠杀", "16060333448")
@@ -147,20 +141,20 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button(
         "住宅大屠杀小go二改",
         function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E4%BD%8F%E5%AE%85%E5%A4%A7%E5%B1%A0%E6%9D%80"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E4%BD%8F%E5%AE%85%E5%A4%A7%E5%B1%A0%E6%9D%80"))()
     end
 )
 local creds = window:Tab("自然灾害", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
 credits:Button("小go自然灾害", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E8%87%AA%E7%84%B6%E7%81%BE%E5%AE%B3"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E8%87%AA%E7%84%B6%E7%81%BE%E5%AE%B3"))()
     end)
 local creds = window:Tab("造船寻宝", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
 credits:Button("小go造船寻宝", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E9%80%A0%E8%88%B9%E5%AF%BB%E5%AE%9D"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E9%80%A0%E8%88%B9%E5%AF%BB%E5%AE%9D"))()
     end)
 local creds = window:Tab("高转轮赌场", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
@@ -172,25 +166,25 @@ local creds = window:Tab("钓鱼模拟器", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
 credits:Button("小go", function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E9%92%93%E9%B1%BC%E6%A8%A1%E6%8B%9F%E5%99%A8")))()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E9%92%93%E9%B1%BC%E6%A8%A1%E6%8B%9F%E5%99%A8")))()
     end)
 local creds = window:Tab("合并滴管", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
 credits:Button("小go", function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E5%90%88%E5%B9%B6%E6%BB%B4%E7%AE%A1")))()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E5%90%88%E5%B9%B6%E6%BB%B4%E7%AE%A1")))()
     end)
 local creds = window:Tab("躲避", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
 credits:Button("小go", function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E8%BA%B2%E9%81%BF")))()
+        https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E8%BA%B2%E9%81%BF")))()
     end)
 local creds = window:Tab("每点击+1车辆⚠️", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
 credits:Button("小go", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/%E6%AF%8F%E7%82%B9%E5%87%BB%2B1%E6%B1%BD%E8%BD%A6"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E6%AF%8F%E7%82%B9%E5%87%BB%2B1%E6%B1%BD%E8%BD%A6"))()
     end)
 local creds = window:Tab("合并已获取钻石!", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
@@ -589,3 +583,4 @@ spawn(function()
     end
 end)
 end)
+
