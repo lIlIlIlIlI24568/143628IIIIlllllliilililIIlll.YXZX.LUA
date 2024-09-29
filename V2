@@ -21,7 +21,7 @@ credits:Button("脚本框架变小一点 抱歉暂时无法使用", "", false, f
 credits:Button(
         "小go主页",
         function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/main/ym"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/Bhayjkedswfgvxtgjoplkj/refs/heads/main/goto"))()
         end)
 credits:Button(
         "小gov1",
