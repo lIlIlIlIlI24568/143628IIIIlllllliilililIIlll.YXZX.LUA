@@ -162,6 +162,22 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button("无限获得钱", function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/564394c7d643564ac916cca8cecfe0d4.lua"))()
     end)
+local creds = window:Tab("合并已获取钻石!", "16060333448")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("无限重生获取钻石", function()
+        local g = true
+while g do
+local args = {
+    [1] = 9,
+    [2] = 0,
+    [3] = 50
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("RebirthConfirmEvent"):FireServer(unpack(args))
+task.wait()
+end
+    end)
 local creds = window:Tab("ToiletDefenseRNG（厕所RNG）", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
