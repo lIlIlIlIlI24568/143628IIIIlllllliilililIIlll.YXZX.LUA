@@ -18,6 +18,24 @@ credits:Button("脚本框架变小一点 抱歉暂时无法使用", "", false, f
         function()
             game:GetService("CoreGui")["frosty"]:Destroy()
         end)
+local Players = credits:Dropdown("选择玩家名字已开始下面的功能", 'Dropdown', bin.dropdown, function(v)
+    bin.playernamedied = v
+end)
+
+credits:Button("重置玩家名字", function()
+    shuaxinlb(true)
+    Players:SetOptions(bin.dropdown)
+end)
+
+credits:Button("传送到玩家旁边", function()
+    local HumRoot = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local tp_player = game.Players:FindFirstChild(bin.playernamedied)
+    if tp_player and tp_player.Character and tp_player.Character.HumanoidRootPart then
+        HumRoot.CFrame = tp_player.Character.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
+    else
+        print("无法传送：未找到玩家或玩家没有角色/HumanoidRootPart")
+    end
+end)
 credits:Button(
         "小go主页",
         function()
