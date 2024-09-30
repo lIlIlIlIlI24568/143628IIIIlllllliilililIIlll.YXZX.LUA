@@ -84,7 +84,52 @@ bin:Label("抢银行开—抢银行关")
 bin:Label("穿墙开—穿墙关")
 
 
+local creds = window:Tab("高转轮赌场", "16060333448")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
+credits:Button("无限获得钱", function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/564394c7d643564ac916cca8cecfe0d4.lua"))()
+    end)
+local creds = window:Tab("钓鱼模拟器", "16060333448")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("小go", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E9%92%93%E9%B1%BC%E6%A8%A1%E6%8B%9F%E5%99%A8")))()
+    end)
+local creds = window:Tab("合并滴管", "16060333448")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("小go", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E5%90%88%E5%B9%B6%E6%BB%B4%E7%AE%A1")))()
+    end)
+local creds = window:Tab("躲避", "16060333448")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("小go", function()
+        https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E8%BA%B2%E9%81%BF")))()
+    end)
+local creds = window:Tab("每点击+1车辆⚠️", "16060333448")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("小go", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E6%AF%8F%E7%82%B9%E5%87%BB%2B1%E6%B1%BD%E8%BD%A6"))()
+    end)
+local creds = window:Tab("合并已获取钻石!", "16060333448")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("无限重生获取钻石", function()
+        local g = true
+while g do
+local args = {
+    [1] = 9,
+    [2] = 0,
+    [3] = 50
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("RebirthConfirmEvent"):FireServer(unpack(args))
+task.wait()
+end
+    end)
 local creds = window:Tab("ToiletDefenseRNG（厕所RNG）", "16060333448")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
