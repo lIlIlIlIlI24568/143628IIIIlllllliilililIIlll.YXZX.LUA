@@ -638,3 +638,7 @@ while true do
         end
     end
 end   end)
+local creds = window:Tab("火车. [RNG] 🎃", "18923878915")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+ credits:Button("无限金钱", function(value) 
+  loadstring(game:HttpGet("https://pastebin.com/raw/LWtSXnRk"))()
