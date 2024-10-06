@@ -621,7 +621,7 @@ credits:Button("小go汉化🕊️", function()
     end)
 local creds = window:Tab(" Jule's RNG", "18923878915")
 local credits = creds:section("[🍀10,000x Luck] Jule's RNG", true)
- credits:Button("快速自动抽", function()
+ credits:Button("快速自动抽", function(value)
    local function a()
     local r=game:GetService("ReplicatedStorage")
     local f=r:FindFirstChild("Auras")
@@ -641,5 +641,6 @@ while true do
         a()
         c=0
     end
+end
 end)
 
