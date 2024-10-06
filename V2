@@ -640,6 +640,18 @@ while true do
 end   end)
 local creds = window:Tab("火车. [RNG] 🎃", "18923878915")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
- credits:Button("无限金钱", function(value) 
+ credits:Button("无限金钱", function() 
   loadstring(game:HttpGet("https://pastebin.com/raw/LWtSXnRk"))()
+end)
+local creds = window:Tab("Rags to Riches", "18923878915")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+ credits:Button("无限金钱", function(value) 
+  while true do
+local args = {
+    [1] = "roll"
+}
+
+game:GetService("ReplicatedStorage").Signal.Money:InvokeServer(unpack(args))
+wait (0.01)
+end
 end)
