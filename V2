@@ -28,8 +28,8 @@ credits:Button(
         function()
             game:GetService("CoreGui")["frosty"]:Destroy()
         end)
-local Players = credits:Dropdown("选择玩家","Dropdown",bai.dropdown,function(v)
-  bai.cswjia= v
+local Players = credits:Dropdown("选择玩家名字已开始下面的功能", 'Dropdown', bin.dropdown, function(v)
+    bin.playernamedied = v
 end)
 
 credits:Button("重置玩家名字", function()
