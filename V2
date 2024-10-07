@@ -28,7 +28,7 @@ credits:Button(
         function()
             game:GetService("CoreGui")["frosty"]:Destroy()
         end)
-local Players = Dropdown("选择玩家","Dropdown",bai.dropdown,function(v)
+local Players = credits:Dropdown("选择玩家","Dropdown",bai.dropdown,function(v)
   bai.cswjia= v
 end)
 
