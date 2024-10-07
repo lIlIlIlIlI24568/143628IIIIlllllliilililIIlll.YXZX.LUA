@@ -13,13 +13,23 @@ credits:Button("脚本框架变小一点 抱歉暂时无法使用", "", false, f
             game:GetService("CoreGui")["frosty"].Main.Style = "Custom"
         end
     end)
-    credits:Button(
+credits:Button(
+        "小go主页",
+        function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/Bhayjkedswfgvxtgjoplkj/refs/heads/main/goto"))()
+        end)
+credits:Button(
+        "小gov1",
+        function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/yujhvvghsjhgvshhs/refs/heads/main/V1"))()
+        end)
+credits:Button(
         "关闭脚本",
         function()
             game:GetService("CoreGui")["frosty"]:Destroy()
         end)
-local Players = credits:Dropdown("选择玩家名字已开始下面的功能", 'Dropdown', bin.dropdown, function(v)
-    bin.playernamedied = v
+local Players = Dropdown("选择玩家","Dropdown",bai.dropdown,function(v)
+  bai.cswjia= v
 end)
 
 credits:Button("重置玩家名字", function()
@@ -36,17 +46,6 @@ credits:Button("传送到玩家旁边", function()
         print("无法传送：未找到玩家或玩家没有角色/HumanoidRootPart")
     end
 end)
-
-credits:Button(
-        "小go主页",
-        function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/Bhayjkedswfgvxtgjoplkj/refs/heads/main/goto"))()
-        end)
-credits:Button(
-        "小gov1",
-        function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/yujhvvghsjhgvshhs/refs/heads/main/V1"))()
-        end)
     local creds = window:Tab("火箭发射模拟器", "18923878915")
     local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
     credits:Button(
