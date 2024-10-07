@@ -73,8 +73,10 @@ credits:Button(
         "xk",
         function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/BINjiaobzx6/BINjiao/main/XK%20Ohio.lua"))()
-        end
-    )
+        end )
+credits:Button("自动印钞机",       function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xiao122231/Ohio/refs/heads/main/PrinterFinder.lua"))()
+        end )
 credits:Button(
         "小go制作玩家控制喜欢俄亥俄的，可以搭配起来超级好用",
         function()
