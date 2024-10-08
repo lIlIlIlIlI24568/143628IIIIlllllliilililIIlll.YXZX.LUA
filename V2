@@ -620,7 +620,7 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button("小go汉化🕊️", function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/xgomn/zxcvb/refs/heads/main/bad%20undergroundwar%202")))()
     end)
-local creds = window:Tab(" Jule's RNG", "18923878915")
+local creds = window:Tab(" 朱丽叶的 RNG", "18923878915")
 local credits = creds:section("[🍀10,000x Luck] Jule's RNG", true)
  credits:Button("快速自动抽", function(value)  loadstring(game:HttpGet("https://pastebin.com/raw/3KV8KYNG"))()   end)
 local creds = window:Tab("MOUNT RNG 🐲", "18923878915")
@@ -644,7 +644,7 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
  credits:Button("无限金钱", function() 
   loadstring(game:HttpGet("https://pastebin.com/raw/LWtSXnRk"))()
 end)
-local creds = window:Tab("Rags to Riches", "18923878915")
+local creds = window:Tab("RagstoRiches", "18923878915")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
  credits:Button("无限金钱", function(value) 
   while true do
