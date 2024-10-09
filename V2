@@ -646,7 +646,8 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 end)
 local creds = window:Tab("RagstoRiches", "18923878915")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
- credits:Button("无限金钱", function(value) 
+ 
+credits:Button("无限金钱", function(value) 
   while true do
 local args = {
     [1] = "roll"
@@ -656,3 +657,16 @@ game:GetService("ReplicatedStorage").Signal.Money:InvokeServer(unpack(args))
 wait (0.01)
 end
 end)
+local creds = window:Tab("可怕的隐藏和寻找", "18923878915")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("xgo汉化", function()
+        loadstring(game:HttpGet(("https://github.com/xgomn/111111/raw/refs/heads/main/%E5%93%A5%E5%93%A5%E5%93%A5%E5%93%A5")))()
+    end)
+
+
+
+
+
+
+
