@@ -664,9 +664,12 @@ credits:Button("xgo汉化", function()
         loadstring(game:HttpGet(("https://github.com/xgomn/111111/raw/refs/heads/main/%E5%93%A5%E5%93%A5%E5%93%A5%E5%93%A5")))()
     end)
 
+local creds = window:Tab("水上赛车手", "18923878915")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
-
-
+credits:Button("xgo汉化", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/AquaRacer.lua")))()
+    end)
 
 
 
