@@ -28,7 +28,7 @@ credits:Button(
         function()
             game:GetService("CoreGui")["frosty"]:Destroy()
         end)
-local Players = credits:Dropdown("选择玩家到传送", "Player Name", AllPlayers, function(Value)
+local Players = credits:Dropdown("选择玩家到传送", "Player Name", "FreeBoat", AllPlayers, function(Value)
     TeleportToPlayer(Value)
 end)
 
