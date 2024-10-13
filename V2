@@ -670,6 +670,9 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button("xgo汉化", function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/AquaRacer.lua")))()
     end)
+local creds = window:Tab("跑酷", "18923878915")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
-
-
+credits:Button("无限获得积分", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/FWqjpE3G")))()
+    end)
