@@ -676,3 +676,9 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button("无限获得积分", function()
         loadstring(game:HttpGet(("https://pastebin.com/raw/FWqjpE3G")))()
     end)
+local creds = window:Tab("僵尸大亨", "18923878915")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+
+credits:Button("xgo制作", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%E5%83%B5%E5%B0%B8%E5%A4%A7%E4%BA%A8.lua")))()
+    end)
