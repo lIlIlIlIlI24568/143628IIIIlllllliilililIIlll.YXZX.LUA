@@ -682,3 +682,8 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button("xgo制作", function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%E5%83%B5%E5%B0%B8%E5%A4%A7%E4%BA%A8.lua")))()
     end)
+local creds = window:Tab("出租车司机", "18923878915")
+local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
+credits:Button("xgo制作", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%20%E5%87%BA%E7%A7%9F%E8%BD%A6%E5%8F%B8%E6%9C%BATaxi.lua")))()
+    end)
