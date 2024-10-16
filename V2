@@ -702,7 +702,7 @@ local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️
 credits:Button("xgo制作", function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%20%E6%96%B0%E6%89%8B%E5%A4%A7%E4%BA%A8%20.lua")))()
     end)
-local creds = window:Tab("块增地", "18923878915")
+local creds = window:Tab("快增量", "18923878915")
 local credits = creds:section("Block Incremental", true)
 credits:Button("xgo制作", function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%20%E5%BF%AB%E5%A2%9E%E9%87%8F%20.lua")))()
