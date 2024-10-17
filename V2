@@ -707,9 +707,21 @@ local credits = creds:section("Block Incremental", true)
 credits:Button("xgo制作", function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%20%E5%BF%AB%E5%A2%9E%E9%87%8F%20.lua")))()
     end)
-
-
-
+local creds = window:Tab("屠宰场[恐怖]", "18923878915")
+local credits = creds:section("xxxxxxxxxgo", true)
+credits:Button("xgo制作", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%E5%B1%A0%E5%AE%B0%E5%9C%BA%5B%E6%81%90%E6%80%96%5D.lua")))()
+    end)
+local creds = window:Tab("保姆[恐怖]", "18923878915")
+local credits = creds:section("xxxxxxxxxxgo", true)
+credits:Button("xgo制作", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%E4%BF%9D%E5%A7%86%5B%E6%81%90%E6%80%96%5D.txt")))()
+    end)
+local creds = window:Tab("弗雷德的厄运", "18923878915")
+local credits = creds:section("xgo Five Nights At Freddy's Doom  ", true)
+credits:Button("xgo制作", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%20Five%20Nights%20At%20Freddy%20s%20Doom%E5%BC%97%E9%9B%B7%E5%BE%B7%E7%9A%84%E5%8E%84%E8%BF%90.txt")))()
+    end)
 
 
 
