@@ -725,7 +725,7 @@ credits:Button("xgo制作", function()
 local creds = window:Tab("Vehicle Legends", "18923878915")
 local credits = creds:section("xgo Vehicle Legends ", true)
 credits:Button("xgo制作", function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%20%E9%94%81%E5%AE%9A%E7%94%A9%E9%A3%9E.lua")))()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgoVehicle%20Legends%F0%9F%9A%93CARS.lua")))()
     end)
 
 
