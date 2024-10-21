@@ -21,7 +21,7 @@ credits:Button(
 credits:Button(
         "小gov1",
         function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/yujhvvghsjhgvshhs/refs/heads/main/V1"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/lllllllllllllllllllllllll123V1XXXXgo/refs/heads/main/V1"))()
         end)
 credits:Button(
         "关闭脚本",
