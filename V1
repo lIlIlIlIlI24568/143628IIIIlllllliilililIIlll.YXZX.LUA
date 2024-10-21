@@ -15,7 +15,7 @@ local UITab2 = win:Tab("『主要』",'16060333448')
 
 local about = UITab2:section("『🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️』",true)
 about:Button("小goV2",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/llllllllllllllllllllv2.lllllllua/refs/heads/main/V2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/143628IIIIlllllliilililIIlll.YXZX.LUA/refs/heads/main/V2"))()
 end)
 about:Button("小go主页",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/14362llll364XXGOLLLk22222/refs/heads/main/goto"))()
