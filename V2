@@ -88,7 +88,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/ohio/ma
 end)
 
 credits:Button("小go俄亥俄州简易版",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/neilonmacedo153/refs/heads/main/%E4%BF%84%E4%BA%A5%E4%BF%84%E5%B7%9E"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/114514.IIjjjjiiiallloiia.xxxxg/refs/heads/main/%E4%BF%84%E4%BA%A5%E4%BF%84%E5%B7%9E"))()
 end)
 credits:Button("指令",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/longshulol/long/main/longshu/Ohio"))()
@@ -658,7 +658,7 @@ local creds = window:Tab("可怕的隐藏和寻找", "18923878915")
 local credits = creds:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️", true)
 
 credits:Button("xgo汉化", function()
-        loadstring(game:HttpGet(("https://github.com/xgomn/111111/raw/refs/heads/main/%E5%93%A5%E5%93%A5%E5%93%A5%E5%93%A5")))()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/xgomn/143628IIIIIIlllllllilil.YXZS.TXT/refs/heads/main/%E5%93%A5%E5%93%A5%E5%93%A5%E5%93%A5")))()
     end)
 
 local creds = window:Tab("水上赛车手", "18923878915")
