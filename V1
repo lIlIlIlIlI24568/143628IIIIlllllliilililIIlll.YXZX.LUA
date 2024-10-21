@@ -1,4 +1,4 @@
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/lllllllllllllllll114514xxxxg/refs/heads/main/%E4%BA%8C%E6%94%B9%E7%A6%81%E6%BC%ABui"))();        
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/114514.IIjjjjiiiallloiia.xxxxg/refs/heads/main/%E4%BA%8C%E6%94%B9%E7%A6%81%E6%BC%ABui"))();        
 local win = ui:new("goto游戏中心v1")
 
 local UITab1 = win:Tab("『信息』",'6035145364')
@@ -18,7 +18,7 @@ about:Button("小goV2",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/llllllllllllllllllllv2.lllllllua/refs/heads/main/V2"))()
 end)
 about:Button("小go主页",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/llllllllllllllll114514ZYXXXXXgO.lua/refs/heads/main/goto"))()
+loadstring(game:HttpGet(""))()
 end)
 local Players = about:Dropdown("选择玩家到传送", "Player Name", AllPlayers, function(Value)
     TeleportToPlayer(Value)
